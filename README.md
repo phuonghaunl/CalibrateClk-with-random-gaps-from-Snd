@@ -6,3 +6,4 @@ To run:
 ./rcv <snd1_IP>
 ./snd1 <rcv_IP> <num_packets> <rate_in_Mbps>
 ./snd2 <rcvIP> <num_packets> <rate_in_Mbps>
+Note: Snd1 will read randomgap.txt which includes 300 inter-packet gaps of 1200 microseconds following Poisson distribution. User can easily change these gaps using Matlab or any other tools to create random gaps following different distributions.
